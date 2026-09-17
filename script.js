@@ -4,7 +4,7 @@
 // Optional: add the family's WhatsApp number in international format,
 // e.g. "919876543210" (digits only). The RSVP section will then show
 // a one-tap WhatsApp button. Leave blank to use the copy/share RSVP flow.
-const RSVP_WHATSAPP = "";
+const RSVP_WHATSAPP = "919928967627";
 
 const opening = document.getElementById("opening");
 const enterBtn = document.getElementById("enterBtn");
