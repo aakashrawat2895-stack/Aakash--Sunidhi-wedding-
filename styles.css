@@ -1,0 +1,65 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fffaf3;color:#3e2630;font-family:"Cormorant Garamond",Georgia,serif;font-size:18px;line-height:1.5;overflow-x:hidden}button,input,select{font:inherit}a{text-decoration:none;color:inherit}.hidden{display:none}.invitation{opacity:0;animation:fadeIn 1.2s .15s forwards}@keyframes fadeIn{to{opacity:1}}
+:root{--wine:#641d39;--rose:#9f5362;--gold:#b58a42;--cream:#fffaf3;--green:#1e5848;--soft:#f3e4d0}
+.opening{position:fixed;inset:0;z-index:1000;background:radial-gradient(circle at center,#fffdf6 0,#f8ead2 60%,#ead4aa 100%);display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}.opening:before,.opening:after{content:"";position:absolute;border:1px solid rgba(181,138,66,.35);border-radius:50%;width:80vmin;height:80vmin;animation:spin 28s linear infinite}.opening:after{width:105vmin;height:105vmin;animation-direction:reverse;animation-duration:42s}@keyframes spin{to{transform:rotate(360deg)}}.opening-content{position:relative;z-index:2;padding:24px}.devotional{font-family:"Yatra One",serif;color:var(--wine);font-size:21px;margin:0 0 8px}.ganesh{width:min(240px,56vw);display:block;margin:0 auto 4px;filter:drop-shadow(0 12px 16px rgba(73,34,20,.13));animation:float 4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-8px)}}.opening-small{letter-spacing:3px;text-transform:uppercase;font-size:11px;color:#80634a;margin:5px 0}.opening h1{font-family:"Great Vibes",cursive;font-size:65px;font-weight:400;color:var(--wine);margin:0;line-height:1.05}.opening-line{font-size:17px;color:#765d55;margin:4px 0 20px}.enter-btn,.submit-btn{border:1px solid var(--gold);background:var(--wine);color:#fffaf3;border-radius:50px;padding:12px 24px;cursor:pointer;box-shadow:0 10px 25px rgba(100,29,57,.18);transition:.3s}.enter-btn:hover,.submit-btn:hover{transform:translateY(-2px);background:#4f162d}.enter-btn span{margin-left:8px;color:#f2d58b}
+.hero{min-height:100svh;position:relative;background:linear-gradient(180deg,rgba(24,39,32,.18),rgba(64,27,40,.65)),url("assets/hero.jpg") center 58%/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white;overflow:hidden}.hero-overlay{position:absolute;inset:0;background:radial-gradient(circle at center,transparent 20%,rgba(34,15,26,.35) 100%)}.hero-content{position:relative;z-index:2;padding:40px 22px 90px;max-width:650px}.eyebrow{font-size:11px;letter-spacing:4px;margin:0 0 15px}.ornament{font-size:35px;color:#f2d58b}.script{font-family:"Great Vibes",cursive;font-size:28px;margin:8px 0}.parents{font-family:"Playfair Display",serif;font-size:14px;letter-spacing:3px;text-transform:uppercase;margin:0 0 10px;color:#f7e7c2}.hero h1{font-family:"Great Vibes",cursive;font-size:clamp(76px,19vw,135px);line-height:.95;font-weight:400;margin:0;text-shadow:0 5px 22px rgba(0,0,0,.25)}.hero-sub{max-width:400px;margin:14px auto 20px;font-size:20px}.date-pill{display:inline-flex;gap:9px;align-items:center;border:1px solid rgba(255,255,255,.7);padding:8px 18px;border-radius:40px;backdrop-filter:blur(5px);font-family:"Playfair Display",serif;font-size:13px}.date-pill span{font-size:20px;color:#f5d786}.scroll-cue{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);font-size:12px;letter-spacing:2px;text-transform:uppercase;white-space:nowrap;opacity:.9}.scroll-cue span{display:block;font-size:22px;animation:bounce 1.5s infinite}@keyframes bounce{50%{transform:translateY(5px)}}.peacock{position:absolute;z-index:2;font-size:70px;opacity:.9;filter:drop-shadow(0 5px 10px rgba(0,0,0,.15))}.peacock-left{left:-5px;bottom:12%;transform:rotate(-18deg)}.peacock-right{right:-8px;top:15%;transform:rotate(16deg)}
+.section{padding:80px 20px;max-width:820px;margin:auto;text-align:center}.intro-section{position:relative}.floral-corner{position:absolute;color:#b58a42;font-size:65px;opacity:.28}.floral-top{top:12px;right:8%}.section-kicker{font-family:"Playfair Display",serif;font-size:10px;letter-spacing:3px;color:var(--rose);margin:0 0 13px}.section h2{font-family:"Playfair Display",serif;font-weight:500;font-size:clamp(38px,10vw,62px);line-height:1.05;margin:0 0 22px;color:var(--wine)}.section h2 em{font-family:"Great Vibes",cursive;font-weight:400;color:var(--gold);font-size:1.25em}.intro-copy{max-width:520px;margin:0 auto;color:#6d5a58;font-size:19px}.divider{color:var(--gold);font-size:22px;margin-top:25px}
+.photo-section{padding:0 15px 65px;max-width:1100px;margin:auto}.photo-frame{position:relative;padding:8px;background:#fff;border:1px solid #e6d2b2;box-shadow:0 15px 45px rgba(75,43,40,.12)}.photo-frame img{width:100%;display:block;object-fit:cover}.wide img{aspect-ratio:16/8;object-position:center 55%}.frame-flower{position:absolute;right:-13px;bottom:-18px;font-size:55px;color:var(--gold);transform:rotate(14deg)}
+.events{background:linear-gradient(180deg,#fffaf3,#f7eee2)}.event-card{position:relative;background:rgba(255,255,255,.75);border:1px solid #e4d3b9;border-radius:22px;padding:30px 20px;margin:22px auto;max-width:590px;box-shadow:0 12px 35px rgba(82,49,39,.08);overflow:hidden}.event-card:before{content:"";position:absolute;inset:8px;border:1px solid rgba(181,138,66,.25);border-radius:17px;pointer-events:none}.event-card.featured{background:#fffdf8}.event-card.wedding-card{background:#f6efe5}.event-number{position:absolute;right:24px;top:15px;color:#c6aa78;font-size:13px;letter-spacing:2px}.event-icon{font-size:35px}.event-day{font-family:"Playfair Display",serif;font-size:10px;letter-spacing:2px;color:var(--rose);margin:7px 0}.event-card h3{font-family:"Great Vibes",cursive;font-size:48px;font-weight:400;color:var(--wine);margin:0 0 5px}.event-time{margin:0 0 18px;color:#806c66;font-style:italic}.venue{display:flex;flex-direction:column;gap:2px;margin-bottom:18px;color:#584847}.venue strong{font-family:"Playfair Display",serif;font-size:15px}.venue span{font-size:15px}.map-btn{display:inline-block;border:1px solid #d6bd8b;color:var(--wine);border-radius:30px;padding:8px 15px;font-family:"Playfair Display",serif;font-size:13px;background:#fffaf3;transition:.25s}.map-btn:hover{background:#f2e5d1;transform:translateY(-1px)}
+.quote-section{background:var(--wine);color:#fff3dd;padding:65px 22px;text-align:center;position:relative;overflow:hidden}.quote-section:before,.quote-section:after{content:"✿";position:absolute;color:#d7b76d;font-size:90px;opacity:.13}.quote-section:before{left:-15px;top:-15px}.quote-section:after{right:-15px;bottom:-25px}.quote-inner{max-width:650px;margin:auto}.mini-mandala{color:#d9b96d;font-size:25px}.quote-inner p{font-family:"Great Vibes",cursive;font-size:30px;line-height:1.35;margin:12px 0}
+.gallery{background:#fffaf3}.gallery-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:12px;align-items:end;max-width:650px;margin:25px auto 0}.gallery-item{border:7px solid #fff;box-shadow:0 10px 28px rgba(71,45,38,.13);overflow:hidden}.gallery-item img{width:100%;height:100%;display:block;object-fit:cover}.portrait{grid-row:span 2}.portrait img{aspect-ratio:3/4}.square img{aspect-ratio:1/1}.gallery-caption{font-family:"Playfair Display",serif;text-align:left;padding:15px 4px;font-size:17px;color:#665552}.gallery-caption em{font-family:"Great Vibes",cursive;font-size:28px;color:var(--gold)}
+.rsvp{background:linear-gradient(180deg,#f7eee3,#fffaf3)}.rsvp-card{background:#fff;border:1px solid #e1ceb0;border-radius:28px;padding:34px 20px;box-shadow:0 15px 45px rgba(74,41,35,.09);position:relative}.rsvp-flower{font-size:44px;color:#c39a54}.rsvp-card>p:not(.section-kicker):not(.rsvp-note){max-width:500px;margin:0 auto 25px;color:#71605d}.rsvp form{max-width:480px;margin:auto;text-align:left}.rsvp label{display:block;font-family:"Playfair Display",serif;font-size:13px;color:#654c4d;margin:12px 0}.rsvp input,.rsvp select{width:100%;padding:12px 14px;border:1px solid #ddcdb7;background:#fffdf9;border-radius:12px;margin-top:6px;outline:none}.rsvp input:focus,.rsvp select:focus{border-color:#b58a42}.rsvp fieldset{border:1px solid #e1d2bd;border-radius:14px;padding:8px 14px 12px;margin:17px 0}.rsvp legend{font-family:"Playfair Display",serif;font-size:12px;padding:0 6px;color:var(--wine)}.rsvp .check{font-family:"Cormorant Garamond",serif;font-size:16px;margin:7px 0;display:flex;align-items:center;gap:8px}.rsvp .check input{width:auto;margin:0}.submit-btn{display:block;width:100%;margin-top:20px}.rsvp-result{margin:20px auto 0;max-width:480px;background:#f3eadc;border-radius:14px;padding:16px;color:#5e4445}.rsvp-result button{border:1px solid #b58a42;background:#fffaf3;color:var(--wine);border-radius:30px;padding:9px 14px;margin-top:10px;cursor:pointer}.rsvp-note{font-size:12px;color:#917e79;margin-top:18px!important}.rsvp-note code{background:#f3eadc;padding:2px 5px;border-radius:4px}
+.closing{padding:85px 20px 65px;text-align:center;background:radial-gradient(circle at center,#fff7e9,#f3dfc4);color:var(--wine)}.closing-ornament{font-size:35px;color:var(--gold)}.closing h2{font-family:"Great Vibes",cursive;font-size:75px;font-weight:400;line-height:1;margin:5px 0}.closing>p:not(.script){font-family:"Playfair Display",serif;font-size:13px;letter-spacing:2px}.closing-flowers{font-size:28px;color:var(--gold);letter-spacing:8px;margin-top:18px}footer{background:#421426;color:#efdcb5;display:flex;justify-content:center;gap:15px;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:18px}
+.petals{position:fixed;inset:0;pointer-events:none;z-index:50;overflow:hidden}.petal{position:absolute;top:-30px;font-size:18px;opacity:.75;animation:fall linear forwards}@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(360deg);opacity:.05}}
+@media(min-width:700px){.section{padding-top:105px;padding-bottom:105px}.event-card{padding:38px 45px}.gallery-grid{grid-template-columns:1fr 1fr}.peacock{font-size:100px}.peacock-left{left:3%;bottom:18%}.peacock-right{right:3%;top:20%}}
+@media(max-width:380px){body{font-size:17px}.hero-content{padding-left:16px;padding-right:16px}.hero h1{font-size:75px}.peacock{font-size:48px}.peacock-left{bottom:12%}.peacock-right{top:11%}.opening h1{font-size:57px}}
+
+.ampersand{font-size:.52em;color:#f2d58b;vertical-align:middle;margin:0 .08em}.closing h2{font-size:clamp(52px,14vw,80px)}
+
+.opening-blessing{max-width:340px;margin:10px auto 22px!important;font-size:18px!important;line-height:1.4}
+.family-message{position:relative;background:linear-gradient(180deg,#fffaf3,#f7eee3)}
+.floral-left{left:4%;top:25%;font-size:58px}
+.message-second{margin-top:14px}
+.message-signoff{font-size:25px!important;color:#6b3045}
+.message-signoff strong{font-family:"Great Vibes",cursive;font-weight:400;font-size:36px;color:#b58a42}
+
+.couple-names{
+  font-family:"Playfair Display",Georgia,serif!important;
+  font-weight:600!important;
+  letter-spacing:.01em;
+  text-transform:none!important;
+  font-size:clamp(48px,12vw,82px)!important;
+}
+.couple-names .ampersand{
+  font-family:"Great Vibes",cursive!important;
+  font-size:.7em;
+}
+
+/* Final couple-name treatment: conventional uppercase A in Aakash */
+.hero h1.couple-names{
+  font-family:"Cormorant Garamond",Georgia,serif!important;
+  font-weight:600!important;
+  text-transform:none!important;
+  letter-spacing:.015em;
+  font-size:clamp(54px,14vw,105px)!important;
+  line-height:.92!important;
+  white-space:nowrap;
+}
+.hero h1.couple-names .bride-name,
+.hero h1.couple-names .groom-name{
+  font-family:"Cormorant Garamond",Georgia,serif!important;
+  font-weight:600!important;
+  text-transform:none!important;
+}
+.hero h1.couple-names .ampersand{
+  font-family:"Great Vibes",cursive!important;
+  font-size:.62em!important;
+  color:#f2d58b;
+  vertical-align:middle;
+  margin:0 .06em;
+}
+@media(max-width:430px){
+  .hero h1.couple-names{
+    font-size:clamp(45px,13vw,68px)!important;
+    letter-spacing:0!important;
+  }
+}
